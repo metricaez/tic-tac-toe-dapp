@@ -3,12 +3,12 @@ import React from 'react'
 import "./GeneralButton.css";
 
 
-export const EndButton = ({ onClick }) => {
+export const HostEndButton = ({ onClick }) => {
     return (
         <button className="general-button" onClick={onClick}>
-            End Game
+            3. Host End Game
         </button>
     );
 }
 
-export default EndButton
+export default HostEndButton

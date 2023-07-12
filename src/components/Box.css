@@ -1,7 +1,7 @@
 .box{
-    background-color: #ffffff;
-    border: none;
-    box-shadow: 0px 0px 8px #888;
+    background-color: whitesmoke;
+    border: solid 0.2rem black;
+    box-shadow: 0px 0px 3px black;
     width: 5rem; 
     height: 5rem; 
     text-align: center;

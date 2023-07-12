@@ -3,12 +3,12 @@ import React from 'react'
 import "./GeneralButton.css";
 
 
-export const JoinButton = ({ onClick }) => {
+export const JoinEndButton = ({ onClick }) => {
     return (
         <button className="general-button" onClick={onClick}>
-            2. Join Game
+            4. Joiner End Game
         </button>
     );
 }
 
-export default JoinButton
+export default JoinEndButton

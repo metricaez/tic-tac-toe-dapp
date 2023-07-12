@@ -5,7 +5,7 @@ import "./GeneralButton.css";
 export const ResetButton = ({ onClick }) => {
     return (
         <button className="general-button" onClick={onClick}>
-            Reset
+            5. Reset Board
         </button>
     );
 }

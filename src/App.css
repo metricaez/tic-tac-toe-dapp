@@ -5,12 +5,28 @@
 body {
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
-  background-color: black;
+  background-color: whitesmoke;
 }
 
 h1 {
   text-align: center;
-  color: white;
+  color: black;
   font-size: 3rem;
   margin: 1rem 0;
+}
+
+.clickable-text {
+  cursor: pointer;
+  text-decoration: underline;
+  background: none;
+  border: none;
+  display: block;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+  color: black;
 }
