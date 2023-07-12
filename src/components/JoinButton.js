@@ -1,11 +1,14 @@
-import React from "react";
+import React from 'react'
 
 import "./GeneralButton.css";
 
-export const ResetButton = ({ onClick }) => {
+
+export const JoinButton = ({ onClick }) => {
     return (
         <button className="general-button" onClick={onClick}>
-            Reset
+            Join Game
         </button>
     );
 }
+
+export default JoinButton
