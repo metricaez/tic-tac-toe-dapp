@@ -1,0 +1,35 @@
+.scoreboard{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 0.2rem black;
+    width: 20rem;
+    font-size: 1.5em;
+    background-color: whitesmoke;
+    margin: 1rem auto;
+    font-weight: bold;
+}
+
+.score{
+    width: 100%;
+    text-align: center;
+    padding:1rem 0;
+
+}
+
+.x-score{
+    color: black;
+    border-bottom: 5px solid black;
+}
+
+
+.o-score{
+    color: black;
+    border-bottom: 5px solid black;
+}
+
+.inactive {
+    border-bottom: 5px solid transparent;
+}
+

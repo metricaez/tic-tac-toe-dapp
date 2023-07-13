@@ -1,0 +1,10 @@
+.general-button {
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.1 rem 0.5rem;
+    margin: 0.5rem auto;
+    display: block;
+}
